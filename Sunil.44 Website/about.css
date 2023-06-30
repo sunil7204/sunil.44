@@ -1,0 +1,111 @@
+
+body  {
+    margin: 0px;
+    background-color: rgb(161, 162, 162);
+  scroll-behavior: smooth; 
+
+  }
+ 
+ 
+
+footer{
+        background-color: rgb(26, 0, 110);
+        color: aliceblue;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .wrapper img {
+      height: 200px;
+      width: 200px;
+      align-content: center;
+      border-radius: 50%;
+      transition: 1s;
+      overflow: hidden;
+  border: solid #3d3d3d;    
+  
+    }
+    
+    .name {
+      color: aliceblue;
+      font-size: 24px;
+      margin-top: 10px;
+      text-align: center;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .address {
+      color: rgb(255, 145, 55);
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 5px;
+      text-align: center;
+  
+    }
+
+    header {
+      padding: 20px;
+
+    }
+    img {
+      display: block;
+      margin: auto; 
+      
+    }
+    footer {
+      padding: 20px;
+    }
+img :hover{
+  overflow: hidden;
+  zoom: 20%; }
+
+  nav {
+    background-color: chocolate;
+    display: flex;
+    color: blue;
+    text-align: center;
+    font-size: 20px;
+
+  }
+  nav ul {
+    display: flex;
+    text-justify: inherit;
+list-style: none;
+
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: chocolate;
+  text-shadow: 5px;
+  padding: 10px;
+  color: rgb(15, 0, 151);
+  }
+  nav ul li a:hover {
+    background-color: rgb(176, 73, 0);
+    color: aliceblue;
+    padding: 20px;
+    overflow: hidden;
+    text-align: justify;
+    justify-content: space-evenly;
+    scroll-behavior: smooth;
+  
+    }
+    header{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: rgb(26, 0, 110);
+        color: aliceblue;
+        text-align: left;
+        padding-left: 55px;
+    }
+    .wrapper img:hover {
+      overflow: hidden;
+      box-shadow: 20px;
+      transform: scale(1.2);
+      z-index: 2;
+      overflow: hidden;
+    }
+    
+    body {
+      background-image: url(background.jpg);
+      background-size: contain;
+    }
